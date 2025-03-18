@@ -1,0 +1,25 @@
+
+.container {
+    padding: 1rem;
+    background-color: chocolate;
+
+
+/* Habilitamos Flebox */
+display: flex;
+}
+
+.item {
+    background-color: lightgreen;
+}
+
+.item > h2 {
+    background-color: blue;
+
+    /* Habilitamos Flebox en un elemento hijo */
+    display: flex;
+}
+
+.item-flex > h2 {
+    color: white;
+    background-color: brown;
+}
