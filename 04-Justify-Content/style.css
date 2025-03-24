@@ -19,16 +19,19 @@ body {
   justify-content: space-evenly; /*Distribuye el espacio disponible entre los elementos y el borde del contenedor*/
 
   margin: 0 auto;
+  box-sizing: content-box;
+  text-align: center;
   width: 1000px;
   height: 500px;
-  background-color: darkcyan;
+  background-color: chocolate;
 }
 
 .item {
- width: 100px;
- height: 100px;
- padding-top: 46px;
- text-align: center;
- background-color: chartreuse;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 46px;
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
 }
 
