@@ -35,17 +35,17 @@ body {
 }
 
 .item {
-  flex-basis: 100rem;
+  flex-basis: 100px;
 
   background-color: limegreen;
   border: 1px solid lightcoral;
 }
 
 .item-1 {
-  flex-basis: 100px;
+  flex-basis: 50px;
 }
 .item-2 {
- flex-basis: 40$;
+ flex-basis: 40%;
 }
 .item-3 {
  flex-basis: 4rem;
@@ -60,15 +60,18 @@ Exite un Short Hand para estas tres propiedades:
 flex: flex-grow | flex-shrink | flex-basis
 
 .item-1 {
-  flex 0 1 200px;
+  flex: 0 1 200px;
 }
-  
+
 .item-2 {
-  flex 0 1 50%;
+  flex: 1 1 50%;
 }
 
 .item-3 {
-  flex 0 1 24rem;
+  flex: 1 0 24rem;
 }
 
+
 */
+
+
